@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Stone diseases",
+        "price": "45,000",
+        "description": "Without opening the abdomen through incision renal stone can be extracted through a single small hole. Approximately ten thousand patients under went such operation last year for stone extraction. Our success rate for such operation is 99%.",
+        "img": "https://i.ibb.co/HFfJvhb/national-cancer-institute-u-Vn-Ra6m-OLOM-unsplash-1-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Various operations for kidney",
+        "price": "76,000",
+        "description": "When prostate gland enlarges both in size and mass in male, TURP can be done. Tumors of urinary bladder can be extracted by TURBT. When there is stricture in urethra OIU can be done to overcome it.",
+        "img": "https://i.ibb.co/S6VbCvB/philippe-spitalier-P-YA5-Ts-PD4-Y-unsplash-1.png"
+    },
+    {
+        "id": 3,
+        "name": "Bladder and Ureteric cancer",
+        "price": "56,000",
+        "description": "Kidney cancer can be treated by Radical Nephrectomy. Partial Nephrectomy is the treatment of choice partial renal cancer.",
+        "img": "https://i.ibb.co/jgLbPf7/cdc-5j-Mo-C6-TInq4-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Kidney operations",
+        "price": "76,000",
+        "description": "When prostate gland enlarges both in size and mass in male, TURP can be done. Tumors of urinary bladder can be extracted by TURBT. When there is stricture in urethra OIU can be done to overcome it.",
+        "img": "https://i.ibb.co/S6VbCvB/philippe-spitalier-P-YA5-Ts-PD4-Y-unsplash-1.png"
+    }
+]
