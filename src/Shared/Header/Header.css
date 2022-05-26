@@ -1,0 +1,34 @@
+.header-up {
+    background-color: #F9F9F9;
+}
+
+.header-up-left {
+    height: 60px;
+    background: linear-gradient(310deg, transparent 40px, #0DB9B6 7px);
+}
+
+.icons {
+    color: gray;
+}
+
+.icons:hover {
+    color: #0DB9B6;
+    cursor: pointer;
+}
+
+.header-main {}
+
+.nav-brande {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.nav-links {
+    font-weight: 600;
+}
+
+@media only screen and (max-width:576px) {
+    .header-up-text {
+        display: none;
+    }
+}

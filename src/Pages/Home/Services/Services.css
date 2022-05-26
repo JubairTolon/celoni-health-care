@@ -1,0 +1,82 @@
+p {
+    color: gray;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 0 90px;
+}
+
+.services-title {
+    display: block;
+}
+
+.services-title p {
+    margin-bottom: 50px
+}
+
+.kidney-logo {
+    font-size: 200px;
+    color: #0DB9B6;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0DB9B6;
+    z-index: -1;
+    border-radius: 8px;
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+
+    /* transform-origin: left; */
+}
+
+.button:hover::before,
+.button:focus::before {
+    transform: scaleX(1);
+}
+
+.button {
+    background-color: aliceblue;
+    padding: 10px 15px;
+    border: 1px solid #0DB9B6;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    transition: .3s ease-in-out;
+}
+
+.button:hover,
+button:focus {
+    color: aliceblue;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+
+/* make services services */
+@media only screen and (max-width:576px) {
+    .services {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .services-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
