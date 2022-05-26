@@ -6,7 +6,7 @@ import Home from './Pages/Home/Home/Home';
 import Header from './Shared/Header/Header';
 import ServiceDeails from './Pages/ServiceDeails/ServiceDeails';
 import NotFound from './Shared/404/NotFound';
-import Contact from './Pages/Contact/Contact';
+import Contact from './Pages/Blogs/Contact';
 import Blogs from './Pages/Blogs/Blogs';
 import Register from './Pages/Login/Register/Register';
 
