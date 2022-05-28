@@ -31,7 +31,7 @@ p {
     bottom: 0;
     background-color: #0DB9B6;
     z-index: -1;
-    border-radius: 8px;
+    border-radius: 7px;
     transition: transform 300ms ease-in-out;
     transform: scaleX(0);
 
@@ -41,6 +41,7 @@ p {
 .button:hover::before,
 .button:focus::before {
     transform: scaleX(1);
+    color: #0DB9B6;
 }
 
 .button {

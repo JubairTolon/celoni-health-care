@@ -11,8 +11,8 @@ const ServiceDeails = () => {
     return (
         <div>
             <h2>Welcome to Details: {serviceId}</h2>
-            <div className='button text-center my-5'>
-                <button className='btn btn-danger' onClick={handleProceed}>Proceed Checkout</button>
+            <div className='text-center my-5'>
+                <button className='button' onClick={handleProceed}>Proceed Checkout</button>
             </div>
         </div>
     );

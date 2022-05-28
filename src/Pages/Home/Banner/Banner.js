@@ -29,7 +29,7 @@ const Banner = () => {
                                 </div>
                                 <div>
                                     <h4 className='text-center'>Call Now For Free</h4>
-                                    <h5 className='text-center'>+123-456-789</h5>
+                                    <h5 className='text-start'>+123-456-789</h5>
                                 </div>
                             </div>
                             <h1>Telehealth Services React Quickly To Epidemics</h1>
@@ -53,7 +53,7 @@ const Banner = () => {
                                 </div>
                                 <div>
                                     <h4 className='text-center'>Call Now For Free</h4>
-                                    <h5 className='text-center'>+123-456-789</h5>
+                                    <h5 className='text-start'>+123-456-789</h5>
                                 </div>
                             </div>
                             <h1>The Pursuit Of Advanced Medicine For Your Life</h1>

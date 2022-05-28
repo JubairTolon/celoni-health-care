@@ -16,6 +16,7 @@ const Header = () => {
     const handleSignOut = () => {
         signOut(auth);
     }
+
     return (
         <>
             <div className='header-up d-flex'>
@@ -31,6 +32,13 @@ const Header = () => {
                     </div>
                 </div>
                 <div className='header-up-righ w-50 d-flex align-items-center justify-content-end'>
+                    {
+                        user ?
+                            <h5 className='me-5' role="button" ><small style={{ color: "#0DB9B6" }}><FaRegUser /> </small> {user.displayName}</h5>
+                            :
+                            <small className='me-5' role="button" style={{ color: "#0DB9B6" }}><FaRegUser /> </small>
+
+                    }
                     <select className="form-select form-select-sm w-25 " aria-label=".form-select-sm example">
                         <option value={"default"}>English</option>
                         <option value="2">Bangla</option>
